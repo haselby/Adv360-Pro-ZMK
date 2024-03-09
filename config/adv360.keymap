@@ -78,5 +78,15 @@
             >;
         };
 
+        layer_nav {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                    &trans        &trans    &trans  &kp PG_UP     &trans         &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                    &trans        &trans    &trans     &kp UP     &trans         &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &kp HOME  &kp RC(LEFT)  &kp LEFT   &kp DOWN  &kp RIGHT  &kp RC(RIGHT)  &kp END
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                          &trans    &trans  &kp PG_DN     &trans         &trans   &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans    &trans                  &trans     &trans     &trans         &trans   &trans
+            >;
+        };
+
     };
 };
